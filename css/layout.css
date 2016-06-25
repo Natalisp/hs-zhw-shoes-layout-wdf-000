@@ -20,14 +20,19 @@
 
 .clear {
   clear: both;
+  margin-bottom: 2%;
 }
 
 /* Posititoning Classes */
 
-.shadow {
-
+[class*="col-"] {
+  float: left;
+  margin-left: 2%;
 }
 
-.border_right {
-  float: right
-}
+[class*="col-"]:first-child {
+  margin-left: 0;
+  }
+
+.col-1-3 {width: 32%;}
+.col-2-3 { width: 66%;}
